@@ -1,0 +1,139 @@
+h2{
+    font-size: 3rem;
+    margin: 0;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 3;
+    text-shadow: 1px 0px 0px #ccc,0px 1px 0px #ccc;
+}
+
+h3{
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space:nowrap;
+}
+
+.wrap{
+    width: 50%;
+    min-width: 350px;
+    height: 50vh;
+    min-height: 350px;
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    height: 50vh;
+    margin: 60px auto;
+}
+
+.wrap::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    outline: 3px solid red;
+    pointer-events: none;
+}
+
+.carousel{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.transitioning{
+    transition: .15s;
+}
+
+.carousel.move-left0{
+    transform: translateX(0%);
+}
+
+.carousel.move-left1{
+    transform: translateX(-20%);
+}
+
+.carousel.move-left2{
+    transform: translateX(-40%);
+}
+.carousel.move-left3{
+    transform: translateX(-60%);
+}
+.carousel.move-left4{
+    transform: translateX(-80%);
+}
+
+.carousel-item {
+    position: relative;
+    height: 100%;
+    min-height: 350px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 0;
+    /* flex:1 0 0; */
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background: rgb(242, 154, 154);
+    cursor: pointer;
+    outline: 1px solid rgb(244, 131, 131);
+}
+
+li.active{
+    background: rgb(248, 16, 16);
+    outline: 1px solid rgb(244, 131, 131);
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    transform: translateY( -50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgb(248, 194, 194);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: serif;
+}
+
+button:nth-of-type(1){
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+button:nth-of-type(2){
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}

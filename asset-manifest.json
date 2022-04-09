@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react_infinity_slider/static/css/main.4f4f06de.css",
-    "main.js": "/react_infinity_slider/static/js/main.264a9287.js",
-    "static/js/787.3a291bd3.chunk.js": "/react_infinity_slider/static/js/787.3a291bd3.chunk.js",
-    "index.html": "/react_infinity_slider/index.html",
-    "main.4f4f06de.css.map": "/react_infinity_slider/static/css/main.4f4f06de.css.map",
-    "main.264a9287.js.map": "/react_infinity_slider/static/js/main.264a9287.js.map",
-    "787.3a291bd3.chunk.js.map": "/react_infinity_slider/static/js/787.3a291bd3.chunk.js.map"
+    "main.css": "/react_infinity_slider/index.html/static/css/main.4f4f06de.css",
+    "main.js": "/react_infinity_slider/index.html/static/js/main.ba152c6c.js",
+    "static/js/787.3a291bd3.chunk.js": "/react_infinity_slider/index.html/static/js/787.3a291bd3.chunk.js",
+    "index.html": "/react_infinity_slider/index.html/index.html",
+    "main.4f4f06de.css.map": "/react_infinity_slider/index.html/static/css/main.4f4f06de.css.map",
+    "main.ba152c6c.js.map": "/react_infinity_slider/index.html/static/js/main.ba152c6c.js.map",
+    "787.3a291bd3.chunk.js.map": "/react_infinity_slider/index.html/static/js/787.3a291bd3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f4f06de.css",
-    "static/js/main.264a9287.js"
+    "static/js/main.ba152c6c.js"
   ]
 }

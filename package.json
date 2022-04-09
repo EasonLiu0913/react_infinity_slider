@@ -2,7 +2,7 @@
   "name": "react_proj",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://easonliu0913.github.io/react_infinity_slider/",
+  "homepage":"https://easonliu0913.github.io/react_infinity_slider/index.html",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
